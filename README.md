@@ -42,9 +42,27 @@ urls.py : The place where URL patterns live. Each URL mapped to a view.
     cd mysite
     python3 manage.py migrate
 
-### Running the deployment server
+#### Running the deployment server
 
     python3 manage.py runserver
+
+#### Creating an application
+
+    python3 manage.py startapp blog
+    
+Application basic structure generated:
+
+admin.py : (optional) to register models in the Django administration site
+
+apps.py : Main configuration of the application
+
+migrations : Migrations allow Django to track your model changes and synchronize the database accordingly
+
+models.py : Can be left empty or includes the data models of applications
+
+tests.py : Place to add tests for application
+
+views.py : The logic of application goes here; each view receives an HTTP request, process it and returns a response
 
 - Enchancing application with advanced features
 - Extending application
