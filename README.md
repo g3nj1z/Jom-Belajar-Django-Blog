@@ -1,5 +1,5 @@
-# Jom-Belajar-Django
-Django Workshop created for Beginner
+# Jom-Belajar-Django Blog
+Django Workshop Series created for Zero to Hero
 
 ### Learn Django
 - Building an application
